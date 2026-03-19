@@ -4,21 +4,27 @@
 
 Ce repository centralise les assets, les tokens et les principes de design de l'organisation Wilmore Dynamics.
 
-## Identité Visuelle
+## Identité & Principes
 
-### Couleurs (Tokens)
-- **Sand Cream** : `#F5F5F3` (Fond principal, organique)
-- **Deep Black** : `#000000` (Contrastes forts, typographie)
-- **Grain Overlay** : Opacité 0.04 (Texture technique)
+### Ton de Voix (Tone of Voice)
+* **Direct & Technique** : Nous ne masquons pas la complexité ; nous la maîtrisons et la documentons.
+* **Transparent** : L'honnêteté technique prime. Pas de "boîte noire" propriétaire.
+* **Minimaliste** : Chaque élément doit avoir une fonction. La clarté avant la décoration.
 
-### Typographie
-- **Primaire** : `Inter Variable`
-- **Style** : Swiss Design / Minimaliste technique.
+### Design Tokens
+| Token | Valeur | Usage |
+| :--- | :--- | :--- |
+| **Sand Cream** | `#F5F5F3` | Fond principal (confort & élégance) |
+| **Deep Black** | `#000000` | Typographie et tracés techniques |
+| **Grain Overlay**| `0.04 Opacity` | Texture technique (organique) |
+| **Typography** | `Inter` | Police unique, lisibilité industrielle |
+| **Format OG** | `1280x640` | Standard pour les Social Previews |
 
 ## Structure du Repo
 - `/assets` : Logos officiels (SVG/PNG) et Favicons.
+- `/scripts` : Outils d'automatisation (Générateur de Social Previews).
+- `/previews` : Images Open Graph générées pour l'organisation.
 - `/tokens` : Variables CSS et configurations Tailwind.
-- `/components` : Références visuelles des interfaces (Lab, Site).
 
 ---
 [Accéder au site →](https://wilmoredynamics.com)

@@ -8,7 +8,7 @@ CANVAS_SIZE = (1280, 640)
 
 # CHEMINS RELATIFS (Basés sur ta nouvelle structure)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOGO_PATH = os.path.join(BASE_DIR, "../../assets/favicons/android-chrome-512x512.png")
+LOGO_PATH = os.path.join(BASE_DIR, "../../assets/logo.png")
 FONT_BOLD = os.path.join(BASE_DIR, "fonts/Inter-Bold.ttf")
 FONT_MEDIUM = os.path.join(BASE_DIR, "fonts/Inter-Medium.ttf")
 OUTPUT_DIR = os.path.join(BASE_DIR, "../../previews")
